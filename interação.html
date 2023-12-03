@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sprint_1</title>
+</head>
+<body>
+<b>Complete a sequência:</b>
+<p>2, 10, 12, 16, 17, 18, ...</p>
+<input>
+<button>Exibir</button>
+
+<script>
+    var numero = 19;
+    var input = document.querySelector("input");
+
+    function valida() {
+    if(input.value == numero) {
+        alert("Você acertou! Sequencia de números que começam com D");
+    } else{
+        alert("Você errou! Tente novamente")
+    }
+    }
+
+    var button = document.querySelector("button");
+    button.onclick = valida;
+</script>
+
+</body>
+</html>
