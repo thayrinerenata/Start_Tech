@@ -14,39 +14,15 @@
     <p>Nome: Tamires</p>
     <p>Mês de Nascimento: Outubro</p>
     <p>Ano de Nascimento: 1987</p>
-    <p>Característica Etária: </p>
-    <hr>
-
-    <p><b>- Código: 2</b></p>
-    <p>Nome: Leticia</p>
-    <p>Mês de Nascimento: Agosto</p>
-    <p>Ano de Nascimento: 1994</p>
-    <p>Característica Etária: </p>
-    <hr>
     
-    <p><b>- Código: 3</b></p>
-    <p>Nome: Jheniffer</p>
-    <p>Mês de Nascimento: Novembro</p>
-    <p>Ano de Nascimento: 2001</p>
-    <p>Característica Etária: </p>
-    <hr>
-    <p><b>Sprint 2 - Thay</b></p>
-
     <script>
 
         var anoAtual = prompt("Digite o ano atual: ");
-
-        function calcula(anoAtual) {
-            var idade = anoAtual - anoNasc;
-            return idade;
-        }    
         
-        var idT = calcula(anoAtual, 1987);
-        var idL = calcula(anoAtual, 1994);
-        var idJ = calcula(anoAtual, 2001);
+        function tami(idade) {
+        var idade = (anoAtual - 1987);
 
-        function classifica(idade) {
-            if (idade <= 17) {
+        if (idade <= 17) {
                 "Adolescente";
             } else if (idade >=18 && idade <= 29) {
                 "Jovem";
@@ -55,13 +31,65 @@
             } else {
                 "Idoso";
             }
-        }
+        }    
 
-        
-        
-                    
+        document.write("Característica Etária: " + tami() + "<br>");
+
+    </script> 
+    
+    <hr>
+    <p><b>- Código: 2</b></p>
+    <p>Nome: Leticia</p>
+    <p>Mês de Nascimento: Agosto</p>
+    <p>Ano de Nascimento: 1994</p>
+
+    <script>
+
+        function let(idade) {
+        var idade = (anoAtual - 1994);
+
+        if (idade <= 17) {
+                "Adolescente";
+            } else if (idade >=18 && idade <= 29) {
+                "Jovem";
+            } else if (idade >=30 && idade <= 59) {
+                "Adulto";
+            } else {
+                "Idoso";
+            }
+        } 
+
+        document.write("Característica Etária: " + let() + "<br>");
+
     </script>
+    
+    <hr>
+    <p><b>- Código: 3</b></p>
+    <p>Nome: Jheniffer</p>
+    <p>Mês de Nascimento: Novembro</p>
+    <p>Ano de Nascimento: 2001</p>
 
+    <script>
+
+        function jen(idade) {
+        var idade = (anoAtual - 2001);
+
+        if (idade <= 17) {
+                "Adolescente";
+            } else if (idade >=18 && idade <= 29) {
+                "Jovem";
+            } else if (idade >=30 && idade <= 59) {
+                "Adulto";
+            } else {
+                "Idoso";
+            }
+        }    
+
+        document.write("Característica Etária: " + jen() + "<br>");
+
+    </script>
+    <hr>
+    <p><b>Sprint 2 - Thay</b></p>
 </body>
 </html>
 
