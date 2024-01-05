@@ -17,77 +17,78 @@
     
     <script>
 
-        var anoAtual = prompt("Digite o ano atual: ");
-        
-        function tami(idade) {
+        function mostra(frase) {
+            document.write(frase);
+        }
+
+        var anoAtual = parseInt(prompt("Digite o ano atual: "));
+
         var idade = (anoAtual - 1987);
 
         if (idade <= 17) {
-                "Adolescente";
+            mostra("Característica Etária: Adolescente");
             } else if (idade >=18 && idade <= 29) {
-                "Jovem";
+            mostra("Característica Etária: Jovem");
             } else if (idade >=30 && idade <= 59) {
-                "Adulto";
+            mostra("Característica Etária: Adulto");
             } else {
-                "Idoso";
-            }
-        }    
-
-        document.write("Característica Etária: " + tami() + "<br>");
+            mostra("Característica Etária: Idoso");
+            }            
 
     </script> 
-    
+
     <hr>
     <p><b>- Código: 2</b></p>
-    <p>Nome: Leticia</p>
-    <p>Mês de Nascimento: Agosto</p>
-    <p>Ano de Nascimento: 1994</p>
-
-    <script>
-
-        function let(idade) {
-        var idade = (anoAtual - 1994);
-
-        if (idade <= 17) {
-                "Adolescente";
-            } else if (idade >=18 && idade <= 29) {
-                "Jovem";
-            } else if (idade >=30 && idade <= 59) {
-                "Adulto";
-            } else {
-                "Idoso";
-            }
-        } 
-
-        document.write("Característica Etária: " + let() + "<br>");
-
-    </script>
-    
-    <hr>
-    <p><b>- Código: 3</b></p>
-    <p>Nome: Jheniffer</p>
-    <p>Mês de Nascimento: Novembro</p>
+    <p>Nome: Eduarda</p>
+    <p>Mês de Nascimento: Maio</p>
     <p>Ano de Nascimento: 2001</p>
 
     <script>
 
-        function jen(idade) {
+        function mostra(frase) {
+            document.write(frase);
+        }
+    
         var idade = (anoAtual - 2001);
-
+    
         if (idade <= 17) {
-                "Adolescente";
-            } else if (idade >=18 && idade <= 29) {
-                "Jovem";
-            } else if (idade >=30 && idade <= 59) {
-                "Adulto";
-            } else {
-                "Idoso";
-            }
-        }    
+            mostra("Característica Etária: Adolescente");
+        } else if (idade >=18 && idade <= 29) {
+            mostra("Característica Etária: Jovem");
+        } else if (idade >=30 && idade <= 59) {
+            mostra("Característica Etária: Adulto");
+        } else {
+            mostra("Característica Etária: Idoso");
+        }  
 
-        document.write("Característica Etária: " + jen() + "<br>");
+    </script>    
 
-    </script>
+    <hr>
+    <p><b>- Código: 3</b></p>
+    <p>Nome: Cássia</p>
+    <p>Mês de Nascimento: Setembro</p>
+    <p>Ano de Nascimento: 2010</p>
+
+    <script>
+
+        function mostra(frase) {
+            document.write(frase);
+        }
+    
+        var idade = (anoAtual - 2010);
+    
+        if (idade <= 17) {
+            mostra("Característica Etária: Adolescente");
+        } else if (idade >=18 && idade <= 29) {
+            mostra("Característica Etária: Jovem");
+        } else if (idade >=30 && idade <= 59) {
+            mostra("Característica Etária: Adulto");
+        } else {
+            mostra("Característica Etária: Idoso");
+        }  
+
+    </script>    
+    
     <hr>
     <p><b>Sprint 2 - Thay</b></p>
 </body>
