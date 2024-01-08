@@ -87,7 +87,28 @@
             mostra("Característica Etária: Idoso");
         }  
 
-    </script>    
+    </script>
+    
+    <hr>
+    <p>***Estatística***</p>
+
+    <script>
+
+        function linha() {
+            document.write("<br>");
+        }
+
+        function mostra(frase) {
+            document.write(frase);
+            linha();
+        }
+
+        var soma = (anoAtual - 1987) + (anoAtual - 2001) + (anoAtual - 2010);
+        var media = soma / 3;
+
+        mostra("Soma das idades: " + soma);
+        mostra("Média das idades: " + media);
+    </script>
     
     <hr>
     <p><b>Sprint 2 - Thay</b></p>
