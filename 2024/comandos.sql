@@ -27,3 +27,5 @@ insert into tb_pedidos values
     ('Central multimídia', 'Automotiva', '711.18', '1', '20220116, 'Caio'),
     ('Building Microservices', 'Livros', '300.28', '2', '20220111', 'Caio'),
     ('Galaxy Tab S8', 'Info', '5939.10', '4', '20220102', 'Bia');
+
+select * from tb_pedidos;    
