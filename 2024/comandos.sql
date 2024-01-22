@@ -31,3 +31,5 @@ insert into tb_pedidos values
 select * from tb_pedidos;    
 
 update table tb_pedidos set categoria_pedido = 'Informática' where categoria_pedido = 'Info';
+
+select * from tb_pedidos;
