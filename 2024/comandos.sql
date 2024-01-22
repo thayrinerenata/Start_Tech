@@ -29,3 +29,5 @@ insert into tb_pedidos values
     ('Galaxy Tab S8', 'Info', '5939.10', '4', '20220102', 'Bia');
 
 select * from tb_pedidos;    
+
+update table tb_pedidos set categoria_pedido = 'Informática' where categoria_pedido = 'Info';
