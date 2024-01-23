@@ -36,4 +36,4 @@ select * from tb_pedidos;
 
 select * from tb_pedidos where preco_pedido = '3.000' and '10.000';
 
-
+delete * from tb_pedidos where quantidade_pedido = '1' and cliente_pedido = 'Bia';
