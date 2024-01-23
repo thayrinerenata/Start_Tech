@@ -33,3 +33,7 @@ select * from tb_pedidos;
 update table tb_pedidos set categoria_pedido = 'Informática' where categoria_pedido = 'Info';
 
 select * from tb_pedidos;
+
+select * from tb_pedidos where preco_pedido = '3.000' and '10.000';
+
+
