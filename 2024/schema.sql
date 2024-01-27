@@ -27,6 +27,6 @@ create table tb_item_pedido (
     id_item_pedido bigint primary key auto increment,
     pedido_id bigint foreign key,
     produto_id bigint foreign key,
-    preco_unitario decimal(10,2),
+    preco_unitario_item_pedido decimal(10,2),
     quantidade_item_pedido integer
 );
